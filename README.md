@@ -1,2 +1,1 @@
-# week3
-Whack-a-mole
+# whack-a-mole
