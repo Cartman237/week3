@@ -1,0 +1,5 @@
+.html {
+    background-image: url("Background whack-a-mole.jpg");
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+}
