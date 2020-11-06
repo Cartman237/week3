@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Whack A Mole</title>
+        <link rel="stylesheet" href="whack-a-mole.css">
+    </head>
+
+    <body>
+        
+        <h1>Whack a Mole!</h1>
+
+        <p>Resterende tijd: </p>
+        <p id="time-left">60</p>
+        <br>
+        <button class="knopje" id="start" onclick="start()">Spel starten</button>
+
+        <div class="grid">
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square mole" id="5"></div>
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+            <div class="square" id="9"></div>
+        </div>
+        
+        <p>Je score = </p>
+        <p id="score"></p>
+        <br>
+
+        <button class="knopje" id="opnieuw" onclick="opnieuw()">Start spel opnieuw.</button>
+    
+    </body>
+
+    <script src="whack-a-mole.js"></script>
+</html>

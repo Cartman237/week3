@@ -1,0 +1,51 @@
+html{
+    text-align: center;
+    font-family: Tahoma;
+    background-image: url("Background whack-a-mole.jpg");
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(0, 155, 0);
+    
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+p {
+    display: inline;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.knopje{
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-content: center;
+    height: 475px;
+    width: 475px;
+}
+
+.square{
+    height: 125px;
+    width: 125px;
+    border: 2.5px solid black;
+    margin: 1.5px;
+    background-color: burlywood;
+    border: hidden;
+}
+
+.mole {
+    background-image: url('monty_mole.png');
+    background-size: 125px 125px;
+}
