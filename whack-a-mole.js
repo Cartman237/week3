@@ -2,6 +2,7 @@ const square = document.querySelectorAll('.square');	// Kijkt naar de class om t
 const mole = document.querySelectorAll('.mole');	// Kijkt naar class mol om te weten wat de mol is.
 const timeLeft = document.querySelector('#time-left');	// Kijkt naar de id en de ingevoerde waarde in de HTML.
 let score = document.querySelector('#score'); // Wordt gebruikt om de score in de HTML te plaatsen
+let mollen = ['mole', 'person1', 'person2'];	// person1 en 2 zijn placeholders.
 
 let result = 0	// De begin waarde voor de score.
 let currentTime = timeLeft.textContent 	// Dit toont de tijd waarde in de HTML twerwijl het aftelt.
